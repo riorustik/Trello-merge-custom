@@ -1,0 +1,12 @@
+.hold{
+    border: 5px solid #eeeeee;
+}
+.hide{
+    display: none;
+}
+.hovered{
+    /*border-top: 5px solid #8fd3f4;*/
+    box-shadow: 0 0px rgba(255, 0, 0, 0.36);
+    border-radius: 20px;
+}
+

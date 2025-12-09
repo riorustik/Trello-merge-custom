@@ -12,10 +12,7 @@
     align-items: center;
     background-color: rgba(238, 238, 238, 0.63);
     border-radius: 30px;
-    margin: 0px 0px 0px 10px;
-    /*padding-left: 20px;*/
-    /*margin-bottom: 25px;*/
-
+    margin: 0 0 0 10px;
 }
 
 input {
