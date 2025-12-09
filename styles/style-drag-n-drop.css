@@ -1,0 +1,33 @@
+.row {
+    display: flex;
+    width: 900px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.col-header {
+    width: 250px;
+    height: 66px;
+    box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+    border-radius: 40px;
+    padding: 0.8rem 1rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.placeholder {
+    width: 250px;
+    height: 66px;
+}
+
+.start {
+    background: linear-gradient(90deg, #ff85e4 0%, #229efd 179.25%);
+}
+
+.progress {
+    background: linear-gradient(90deg, #209cff 0%, #68e0cf 100%);
+}
+
+.done {
+    background: linear-gradient(90deg, #84fab0 0%, #8fd3f4 100%);
+}

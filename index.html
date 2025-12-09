@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trello</title>
+    <link rel="stylesheet"
+          href="styles/index.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<header>
+    <h2>
+        Trello
+    </h2>
+</header>
+<main>
+    <div class="todo">
+        <div class="add-box">
+            <form class="add-task">
+                <label class="label"
+                       for="input-box"></label>
+                <input type="text"
+                       placeholder="Add your task..."
+                       id="input-box">
+                <button type="button"
+                        onclick="addTask()">Add
+                </button>
+            </form>
+        </div>
+        <ul id="list-container" class="tasks placeholder">
+            <li class="item"
+                 draggable="true">1 меня
+            </li>
+            <li class="item"
+                draggable="true">2 меня
+            </li>
+            <li class="item"
+                draggable="true">3 меня
+                <span>x</span>
+            </li>
+        </ul>
+    </div>
+    <div class="drap-n-drop">
+        <div class="row">
+            <div class="col-header start">Начать</div>
+            <div class="col-header progress">В процессе</div>
+            <div class="col-header done">Готовы</div>
+        </div>
+
+        <div class="row tasks">
+            <div class="placeholder">
+                <li class="item"
+                    draggable="true">4 меня
+                </li>
+            </div>
+            <div class="placeholder"></div>
+            <div class="placeholder"></div>
+        </div>
+    </div>
+</main>
+</body>
+</html>

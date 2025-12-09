@@ -1,0 +1,42 @@
+ul {
+    margin-left: 10px;
+}
+
+.item {
+    /*position: relative;*/
+    list-style: none;
+    font-size: 17px;
+    margin-bottom: 10px;
+    list-style: none;
+    width: 250px;
+    height: 55px;
+    border: 1px solid #eee;
+    box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+    border-radius: 40px;
+    background: #f7f6f7;
+    padding: 0.8rem 1rem;
+    color: #828282;
+    /*text-align: center;*/
+    cursor: grab;
+
+    & span {
+        position: absolute;
+        right: 10px;
+        top: 25%;
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+        text-align: center;
+        line-height: 25px;
+        color: #424242;
+        border-radius: 50%;
+
+        &:hover {
+            background-color: #ff5945;
+        }
+    }
+}
+
+.item:active {
+    cursor: grabbing;
+}
