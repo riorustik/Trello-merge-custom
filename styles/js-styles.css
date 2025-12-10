@@ -4,8 +4,3 @@
 .hide{
     display: none;
 }
-.hovered{
-    /*border-top: 5px solid #8fd3f4;*/
-    box-shadow: 0 0 rgba(255, 0, 0, 0.36);
-    border-radius: 20px;
-}

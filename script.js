@@ -1,7 +1,7 @@
 const placeholders = document.querySelectorAll('.placeholder');
 const inputBox = document.getElementById('input-box');
 const listContainer = document.getElementById('list-container');
-const addBtn = document.querySelector('.add-task-button');
+const addTaskBtn = document.querySelector('.add-task-button');
 let item = document.querySelectorAll('.item');
 let currentObjSaveEventTarget = {}
 
@@ -14,7 +14,7 @@ placeholders.forEach(placeholder => {
     placeholder.addEventListener('drop', drop);
 })
 
-addBtn.addEventListener('click', () => {
+addTaskBtn.addEventListener('click', () => {
     if (inputBox.value.trim() === '') {
         alert('Please enter a valid task');
     } else {
