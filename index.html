@@ -5,7 +5,8 @@
     <title>Trello</title>
     <link rel="stylesheet"
           href="styles/index.css">
-    <script src="script.js" defer></script>
+    <script src="script.js"
+            defer></script>
 </head>
 <body>
 <header>
@@ -23,20 +24,13 @@
                        placeholder="Add your task..."
                        id="input-box">
                 <button type="button"
-                        onclick="addTask()">Add
+                        class="add-task-button"
+                >Add
                 </button>
             </form>
         </div>
-        <ul id="list-container" class="tasks placeholder">
-            <li class="item"
-                 draggable="true">1 меня
-            </li>
-            <li class="item"
-                draggable="true">2 меня
-            </li>
-            <li class="item"
-                draggable="true">3 меня
-            </li>
+        <ul id="list-container"
+            class="tasks placeholder">
         </ul>
     </div>
     <div class="drap-n-drop">
@@ -47,11 +41,7 @@
         </div>
 
         <div class="row tasks">
-            <div class="placeholder">
-                <li class="item"
-                    draggable="true">4 меня
-                </li>
-            </div>
+            <div class="placeholder"></div>
             <div class="placeholder"></div>
             <div class="placeholder"></div>
         </div>
